@@ -33,7 +33,8 @@ public class Exam_01 {
 
 class Exam_01_sub1 extends WindowAdapter{
     //실행 클라스
+    public void windowClosing(WindowEvent e){
+        System.exit(0);
+    }
 }
 
-// git test
-// git test2
