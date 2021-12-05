@@ -17,7 +17,7 @@ class Exam_01_sub extends Frame {
     }
 
     public void start(){
-        Exam_01_sub1 ess = new Exam_01_sub1();
+        Exam_01_sub2 ess = new Exam_01_sub2();
         this.addWindowListener(ess);
     }
 }
@@ -35,6 +35,13 @@ class Exam_01_sub1 extends WindowAdapter{
     //실행 클라스
     public void windowClosing(WindowEvent e){
         System.exit(0);
+    }
+}
+
+class Exam_01_sub2 extends WindowAdapter{
+    @Override
+    public void windowClosing(WindowEvent e) {
+        System.out.println("try to close it.");
     }
 }
 
