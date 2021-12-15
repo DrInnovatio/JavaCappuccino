@@ -20,6 +20,16 @@ class Exam_03_sub extends JFrame {
     }
 
     private void init() {
+
+        jobAttributes.setCopies(3);
+        jobAttributes.setDefaultSelection(JobAttributes.DefaultSelectionType.SELECTION);
+        jobAttributes.setDestination(JobAttributes.DestinationType.FILE);
+        jobAttributes.setDialog(JobAttributes.DialogType.NATIVE);
+        jobAttributes.setFileName("abc.myfile");
+        jobAttributes.setMaxPage(5);
+        jobAttributes.setMinPage(1);
+        jobAttributes.setMultipleDocumentHandling(JobAttributes.MultipleDocumentHandlingType.SEPARATE_DOCUMENTS_COLLATED_COPIES);
+
         Toolkit tk = Toolkit.getDefaultToolkit();
         pj = tk.getPrintJob(this, "My printing", jobAttributes, pageAttributes );
         if(pj != null){
