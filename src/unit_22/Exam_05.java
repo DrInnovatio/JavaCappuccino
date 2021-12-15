@@ -11,7 +11,6 @@ class Exam_05_sub extends Frame implements MouseListener{
     private boolean bbb = false;
     private boolean bbb1 = false;
 
-
     public Exam_05_sub(){
         super("Test");
         this.init();
