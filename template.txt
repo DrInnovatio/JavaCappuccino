@@ -26,9 +26,6 @@ class Exam_01_sub extends JFrame {
 
     }
 
-    public void paint(Graphics g){
-            Graphics2D g2D = (Graphics2D)g;
-        }
 
 
 }
