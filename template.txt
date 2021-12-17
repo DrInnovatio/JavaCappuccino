@@ -1,0 +1,42 @@
+package unit_25;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.border.*;
+import javax.swing.event.*;
+
+class Exam_01_sub extends JFrame {
+
+
+    public Exam_01_sub(){
+        super("Test");
+        this.init();
+        this.start();
+        this.setSize(300, 200);
+        this.setVisible(true);
+    }
+
+    private void init() {
+
+
+    }
+
+    private void start() {
+
+    }
+
+    public void paint(Graphics g){
+            Graphics2D g2D = (Graphics2D)g;
+        }
+
+
+}
+
+public class Exam_01 {
+
+    public static void main(String[] args) {
+        Exam_01_sub runRun = new Exam_01_sub();
+    }
+
+}
