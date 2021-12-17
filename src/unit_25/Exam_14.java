@@ -37,21 +37,25 @@ class Exam_14_sub extends JFrame {
         jsp.setColumnHeaderView(jv);
         jsp.setRowHeaderView(jv1);
         con.add("Center", jsp);
-
-
     }
 
     private void start() {
 
     }
-
-
-
 }
 
 public class Exam_14 {
 
     public static void main(String[] args) {
+
+        UIManager.LookAndFeelInfo[] laf = UIManager.getInstalledLookAndFeels();
+        for(int i = 0; i < laf.length; i++){
+            System.out.println("==========");
+            System.out.println("ClassName = " + laf[i].getClassName());
+            System.out.println("Name = " + laf[i].getName());
+            System.out.println("toString = " + laf[i].toString());
+            System.out.println("===========");
+        }
         Exam_14_sub runRun = new Exam_14_sub();
     }
 
