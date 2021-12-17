@@ -8,6 +8,11 @@ import javax.swing.event.*;
 
 class Exam_01_sub extends JFrame {
 
+ private JRootPane jrp;
+    private Container con;
+    private JLabel jl = new JLabel("test");
+    private JButton jbt = new JButton("test 1");
+
 
     public Exam_01_sub(){
         super("Test");
