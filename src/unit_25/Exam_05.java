@@ -4,9 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.Vector;
 import javax.swing.*;
-import javax.swing.border.*;
-import javax.swing.event.*;
-import java.util.*;
+
 
 class Exam_05_sub extends JFrame implements ActionListener, Runnable{
 
