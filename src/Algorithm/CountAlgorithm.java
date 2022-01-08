@@ -36,8 +36,6 @@ public class CountAlgorithm {
             result[counting[value]] = value;
         }
 
-
-
         /* 비교 출력 */
 
         // 초기 배열
