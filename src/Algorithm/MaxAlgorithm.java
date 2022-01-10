@@ -9,7 +9,6 @@ public class MaxAlgorithm {
         for(int i=1;i<=array.length-1;i++){
             if(currentMax < array[i]){
                 currentMax = array[i];
-
             }
         }
 
