@@ -1,6 +1,5 @@
 package unit_24;
 
-import javafx.scene.layout.Pane;
 
 import java.awt.*;
 import java.awt.event.*;

@@ -1,8 +1,6 @@
 // DisplayMode
 // DisplayMode
 package unit_23;
-
-import sun.java2d.windows.GDIBlitLoops;
 import java.awt.*;
 import java.awt.event.*;
 
