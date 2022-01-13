@@ -19,5 +19,4 @@ public class MinAlgorithm {
         System.out.println("Min Value is  : " + min);
 
     }
-
 }
